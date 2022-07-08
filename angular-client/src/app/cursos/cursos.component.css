@@ -1,0 +1,37 @@
+table, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 8px;
+}
+
+form label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+.delete, .editar {
+  font-size: larger;
+  padding: 4px;
+  border: 1px solid #FF7777;
+  border-radius: 3px;
+}
+.delete {
+  background-color: #FFB0B0;
+}
+.editar {
+  background-color: #B0B0FF;
+  border-color: #7777FF;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  transition-duration: 500ms;
+}
